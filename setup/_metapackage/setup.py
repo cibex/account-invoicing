@@ -30,6 +30,7 @@ setuptools.setup(
         'odoo-addon-account_invoice_transmit_method>=15.0dev,<15.1dev',
         'odoo-addon-account_invoice_tree_currency>=15.0dev,<15.1dev',
         'odoo-addon-account_invoice_triple_discount>=15.0dev,<15.1dev',
+        'odoo-addon-account_invoice_validation_queued>=15.0dev,<15.1dev',
         'odoo-addon-account_move_exception>=15.0dev,<15.1dev',
         'odoo-addon-account_move_post_block>=15.0dev,<15.1dev',
         'odoo-addon-account_move_tier_validation>=15.0dev,<15.1dev',
@@ -41,6 +42,7 @@ setuptools.setup(
         'odoo-addon-sale_line_refund_to_invoice_qty>=15.0dev,<15.1dev',
         'odoo-addon-sale_order_invoicing_grouping_criteria>=15.0dev,<15.1dev',
         'odoo-addon-sale_timesheet_invoice_description>=15.0dev,<15.1dev',
+        'odoo-addon-stock_picking_invoicing_incoterm>=15.0dev,<15.1dev',
         'odoo-addon-stock_picking_return_refund_option>=15.0dev,<15.1dev',
     ],
     classifiers=[

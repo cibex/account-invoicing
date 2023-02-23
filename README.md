@@ -34,6 +34,7 @@ addon | version | maintainers | summary
 [account_invoice_pricelist](account_invoice_pricelist/) | 15.0.1.0.1 |  | Add partner pricelist on invoices
 [account_invoice_pricelist_sale](account_invoice_pricelist_sale/) | 15.0.1.0.0 |  | Module to fill pricelist from sales order in invoice.
 [account_invoice_refund_link](account_invoice_refund_link/) | 15.0.1.0.1 |  | Show links between refunds and their originator invoices.
+[account_invoice_refund_reason](account_invoice_refund_reason/) | 15.0.1.0.1 | [![max3903](https://github.com/max3903.png?size=30px)](https://github.com/max3903) | Account Invoice Refund Reason.
 [account_invoice_search_by_reference](account_invoice_search_by_reference/) | 15.0.1.0.0 |  | Account invoice search by reference
 [account_invoice_section_sale_order](account_invoice_section_sale_order/) | 15.0.1.0.2 |  | For invoices targetting multiple sale order addsections with sale order name.
 [account_invoice_supplier_ref_unique](account_invoice_supplier_ref_unique/) | 15.0.1.0.0 |  | Checks that supplier invoices are not entered twice
@@ -54,6 +55,7 @@ addon | version | maintainers | summary
 [product_form_account_move_line_link](product_form_account_move_line_link/) | 15.0.1.0.0 |  | Adds a button on product forms to access Journal Items
 [product_supplierinfo_for_customer_invoice](product_supplierinfo_for_customer_invoice/) | 15.0.1.0.0 |  | Based on product_customer_code, this module loads in every account invoice the customer code defined in the product
 [purchase_stock_picking_return_invoicing](purchase_stock_picking_return_invoicing/) | 15.0.1.0.0 | [![pedrobaeza](https://github.com/pedrobaeza.png?size=30px)](https://github.com/pedrobaeza) [![MiquelRForgeFlow](https://github.com/MiquelRForgeFlow.png?size=30px)](https://github.com/MiquelRForgeFlow) | Add an option to refund returned pickings
+[sale_invoicing_date_selection](sale_invoicing_date_selection/) | 15.0.1.0.0 | [![sergio-teruel](https://github.com/sergio-teruel.png?size=30px)](https://github.com/sergio-teruel) | Set date invoice when you create invoices
 [sale_line_refund_to_invoice_qty](sale_line_refund_to_invoice_qty/) | 15.0.1.0.1 |  | Allow deciding whether refunded quantity should be considered as quantity to reinvoice
 [sale_order_invoicing_grouping_criteria](sale_order_invoicing_grouping_criteria/) | 15.0.1.0.2 | [![pedrobaeza](https://github.com/pedrobaeza.png?size=30px)](https://github.com/pedrobaeza) | Sales order invoicing grouping criteria
 [sale_timesheet_invoice_description](sale_timesheet_invoice_description/) | 15.0.1.0.0 |  | Add timesheet details in invoice line

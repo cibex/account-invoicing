@@ -27,11 +27,12 @@ addon | version | maintainers | summary
 [account_invoice_change_currency](account_invoice_change_currency/) | 15.0.2.0.0 | [![luisg123v](https://github.com/luisg123v.png?size=30px)](https://github.com/luisg123v) [![rolandojduartem](https://github.com/rolandojduartem.png?size=30px)](https://github.com/rolandojduartem) | Allows to change currency of Invoice by wizard
 [account_invoice_check_picking_date](account_invoice_check_picking_date/) | 15.0.1.1.0 | [![carlosdauden](https://github.com/carlosdauden.png?size=30px)](https://github.com/carlosdauden) | Check if date of pickings match with accounting date
 [account_invoice_check_total](account_invoice_check_total/) | 15.0.1.0.0 |  | Check if the verification total is equal to the bill's total
-[account_invoice_date_due](account_invoice_date_due/) | 15.0.1.0.1 | [![luisg123v](https://github.com/luisg123v.png?size=30px)](https://github.com/luisg123v) [![joao-p-marques](https://github.com/joao-p-marques.png?size=30px)](https://github.com/joao-p-marques) | Update Invoice's Due Date
+[account_invoice_date_due](account_invoice_date_due/) | 15.0.1.0.2 | [![luisg123v](https://github.com/luisg123v.png?size=30px)](https://github.com/luisg123v) [![joao-p-marques](https://github.com/joao-p-marques.png?size=30px)](https://github.com/joao-p-marques) | Update Invoice's Due Date
 [account_invoice_fiscal_position_update](account_invoice_fiscal_position_update/) | 15.0.1.0.2 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Changing the fiscal position of an invoice will auto-update invoice lines
 [account_invoice_fixed_discount](account_invoice_fixed_discount/) | 15.0.1.0.0 |  | Allows to apply fixed amount discounts in invoices.
+[account_invoice_merge](account_invoice_merge/) | 15.0.1.0.0 |  | Merge invoices in draft
 [account_invoice_payment_term_date_due](account_invoice_payment_term_date_due/) | 15.0.1.0.1 | [![ivantodorovich](https://github.com/ivantodorovich.png?size=30px)](https://github.com/ivantodorovich) | Display invoices date due when using payment terms
-[account_invoice_pricelist](account_invoice_pricelist/) | 15.0.1.0.1 |  | Add partner pricelist on invoices
+[account_invoice_pricelist](account_invoice_pricelist/) | 15.0.1.0.2 |  | Add partner pricelist on invoices
 [account_invoice_pricelist_sale](account_invoice_pricelist_sale/) | 15.0.1.0.0 |  | Module to fill pricelist from sales order in invoice.
 [account_invoice_refund_link](account_invoice_refund_link/) | 15.0.1.0.1 |  | Show links between refunds and their originator invoices.
 [account_invoice_refund_reason](account_invoice_refund_reason/) | 15.0.1.0.2 | [![max3903](https://github.com/max3903.png?size=30px)](https://github.com/max3903) | Account Invoice Refund Reason.
@@ -55,6 +56,8 @@ addon | version | maintainers | summary
 [account_receipt_journal](account_receipt_journal/) | 15.0.1.0.1 | [![eLBati](https://github.com/eLBati.png?size=30px)](https://github.com/eLBati) | Define and use journals dedicated to receipts
 [account_receipt_send](account_receipt_send/) | 15.0.1.0.1 | [![Shide](https://github.com/Shide.png?size=30px)](https://github.com/Shide) | Send receipts
 [account_tax_group_widget_base_amount](account_tax_group_widget_base_amount/) | 15.0.1.0.0 | [![chienandalu](https://github.com/chienandalu.png?size=30px)](https://github.com/chienandalu) | Adds base to tax group widget as it's put in the report
+[partner_invoicing_mode](partner_invoicing_mode/) | 15.0.1.0.0 |  | Base module for handling multiple partner invoicing mode
+[partner_invoicing_mode_at_shipping](partner_invoicing_mode_at_shipping/) | 15.0.1.0.0 |  | Create invoices automatically when goods are shipped.
 [portal_account_personal_data_only](portal_account_personal_data_only/) | 15.0.1.0.0 |  | Portal Accounting Personal Data Only
 [product_form_account_move_line_link](product_form_account_move_line_link/) | 15.0.1.0.0 |  | Adds a button on product forms to access Journal Items
 [product_supplierinfo_for_customer_invoice](product_supplierinfo_for_customer_invoice/) | 15.0.1.0.0 |  | Based on product_customer_code, this module loads in every account invoice the customer code defined in the product
@@ -63,7 +66,8 @@ addon | version | maintainers | summary
 [sale_line_refund_to_invoice_qty](sale_line_refund_to_invoice_qty/) | 15.0.1.0.1 |  | Allow deciding whether refunded quantity should be considered as quantity to reinvoice
 [sale_order_invoicing_grouping_criteria](sale_order_invoicing_grouping_criteria/) | 15.0.1.0.2 | [![pedrobaeza](https://github.com/pedrobaeza.png?size=30px)](https://github.com/pedrobaeza) | Sales order invoicing grouping criteria
 [sale_order_invoicing_qty_percentage](sale_order_invoicing_qty_percentage/) | 15.0.1.0.0 | [![pedrobaeza](https://github.com/pedrobaeza.png?size=30px)](https://github.com/pedrobaeza) | Sales order invoicing by percentage of the quantity
-[sale_timesheet_invoice_description](sale_timesheet_invoice_description/) | 15.0.1.0.0 |  | Add timesheet details in invoice line
+[sale_timesheet_invoice_description](sale_timesheet_invoice_description/) | 15.0.1.0.1 |  | Add timesheet details in invoice line
+[stock_picking_invoicing](stock_picking_invoicing/) | 15.0.1.0.0 |  | Stock Picking Invoicing
 [stock_picking_invoicing_incoterm](stock_picking_invoicing_incoterm/) | 15.0.1.0.0 |  | Stock Picking Invoicing Incoterm
 [stock_picking_return_refund_option](stock_picking_return_refund_option/) | 15.0.1.0.1 | [![sergio-teruel](https://github.com/sergio-teruel.png?size=30px)](https://github.com/sergio-teruel) | Update the refund options in pickings
 

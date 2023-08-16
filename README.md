@@ -31,6 +31,7 @@ addon | version | maintainers | summary
 [account_invoice_clearing](account_invoice_clearing/) | 15.0.0.1.3 | [![Shide](https://github.com/Shide.png?size=30px)](https://github.com/Shide) | Account invoice clearing wizard
 [account_invoice_crm_tag](account_invoice_crm_tag/) | 15.0.1.0.2 |  | Account Invoice CRM Tag
 [account_invoice_date_due](account_invoice_date_due/) | 15.0.1.0.2 | [![luisg123v](https://github.com/luisg123v.png?size=30px)](https://github.com/luisg123v) [![joao-p-marques](https://github.com/joao-p-marques.png?size=30px)](https://github.com/joao-p-marques) | Update Invoice's Due Date
+[account_invoice_discount_display_amount](account_invoice_discount_display_amount/) | 15.0.1.0.1 |  | Show total discount applied and total without discount on invoices.
 [account_invoice_fiscal_position_update](account_invoice_fiscal_position_update/) | 15.0.1.0.2 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Changing the fiscal position of an invoice will auto-update invoice lines
 [account_invoice_fixed_discount](account_invoice_fixed_discount/) | 15.0.1.0.0 |  | Allows to apply fixed amount discounts in invoices.
 [account_invoice_force_number](account_invoice_force_number/) | 15.0.1.0.0 |  | Allows to force invoice numbering on specific invoices
@@ -55,6 +56,7 @@ addon | version | maintainers | summary
 [account_invoice_view_payment](account_invoice_view_payment/) | 15.0.1.0.0 |  | Access to the payment from an invoice
 [account_move_exception](account_move_exception/) | 15.0.1.0.0 |  | Custom exceptions on account move
 [account_move_post_block](account_move_post_block/) | 15.0.1.0.1 |  | Account Move Post Block
+[account_move_search_line](account_move_search_line/) | 15.0.1.0.0 |  | Account Move Search Line
 [account_move_tier_validation](account_move_tier_validation/) | 15.0.1.1.1 |  | Extends the functionality of Account Moves to support a tier validation process.
 [account_move_tier_validation_forward](account_move_tier_validation_forward/) | 15.0.1.0.0 |  | Account Move Tier Validation - Forward Option
 [account_portal_invoice_search](account_portal_invoice_search/) | 15.0.1.0.0 |  | Account Portal Invoice Search

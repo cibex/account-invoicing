@@ -31,7 +31,9 @@ class AccountMove(models.Model):
         """
         self.currency_rate_amount = 1
         for item in self.filtered("show_currency_rate_amount"):
-            lines = item.line_ids.filtered(lambda x: abs(x.amount_currency) > 0)
+            lines = item.line_ids.filtered(
+                lambda x: abs(x.amount_currency) > 0 and x.date
+            )
             if item.state == "posted" and lines:
                 amount_currency_positive = sum(
                     [abs(amc) for amc in lines.mapped("amount_currency")]
@@ -81,6 +83,7 @@ class AccountMoveLine(models.Model):
         for item in self:
             if (
                 not item.currency_id
+                or not item.move_id.date
                 or item.currency_id == item.move_id.company_id.currency_id
             ):
                 continue

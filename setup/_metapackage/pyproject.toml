@@ -1,13 +1,15 @@
 [project]
 name = "odoo-addons-oca-account-invoicing"
-version = "18.0.20251205.0"
+version = "18.0.20251218.0"
 dependencies = [
     "odoo-addon-account_billing==18.0.*",
     "odoo-addon-account_global_discount==18.0.*",
     "odoo-addon-account_invoice_auto_send_by_email==18.0.*",
+    "odoo-addon-account_invoice_check_total==18.0.*",
     "odoo-addon-account_invoice_date_due==18.0.*",
     "odoo-addon-account_invoice_fiscal_position_update==18.0.*",
     "odoo-addon-account_invoice_fixed_discount==18.0.*",
+    "odoo-addon-account_invoice_payment_term_date_due==18.0.*",
     "odoo-addon-account_invoice_pricelist==18.0.*",
     "odoo-addon-account_invoice_pricelist_sale==18.0.*",
     "odoo-addon-account_invoice_refund_link==18.0.*",

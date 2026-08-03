@@ -28,6 +28,7 @@ addon | version | maintainers | summary
 [account_invoice_check_total](account_invoice_check_total/) | 18.0.1.0.0 |  | Check if the verification total is equal to the bill's total
 [account_invoice_clearing](account_invoice_clearing/) | 18.0.1.0.1 | <a href='https://github.com/Shide'><img src='https://github.com/Shide.png' width='32' height='32' style='border-radius:50%;' alt='Shide'/></a> | Account invoice clearing wizard
 [account_invoice_crm_tag](account_invoice_crm_tag/) | 18.0.1.0.0 |  | Account Invoice CRM Tag
+[account_invoice_currency_by_partner](account_invoice_currency_by_partner/) | 18.0.1.0.0 |  | Add currency to partner for invoice
 [account_invoice_custom_rounding](account_invoice_custom_rounding/) | 18.0.1.0.0 |  | Custom taxes rounding method in invoices
 [account_invoice_date_due](account_invoice_date_due/) | 18.0.1.0.1 | <a href='https://github.com/luisg123v'><img src='https://github.com/luisg123v.png' width='32' height='32' style='border-radius:50%;' alt='luisg123v'/></a> <a href='https://github.com/CarlosRoca13'><img src='https://github.com/CarlosRoca13.png' width='32' height='32' style='border-radius:50%;' alt='CarlosRoca13'/></a> | Update Invoice's Due Date
 [account_invoice_default_code_column](account_invoice_default_code_column/) | 18.0.1.0.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Display Default code product in a dedicated column on invoice reports
@@ -42,6 +43,7 @@ addon | version | maintainers | summary
 [account_invoice_pricelist_sale](account_invoice_pricelist_sale/) | 18.0.1.0.0 |  | Module to fill pricelist from sales order in invoice.
 [account_invoice_refund_line_selection](account_invoice_refund_line_selection/) | 18.0.1.0.0 |  | This module allows the user to refund specific lines in a invoice
 [account_invoice_refund_link](account_invoice_refund_link/) | 18.0.1.0.0 |  | Show links between refunds and their originator invoices.
+[account_invoice_refund_link_sale](account_invoice_refund_link_sale/) | 18.0.1.0.0 |  | Account invoice refund link sale
 [account_invoice_refund_reason](account_invoice_refund_reason/) | 18.0.1.0.0 | <a href='https://github.com/max3903'><img src='https://github.com/max3903.png' width='32' height='32' style='border-radius:50%;' alt='max3903'/></a> | Account Invoice Refund Reason.
 [account_invoice_section_sale_order](account_invoice_section_sale_order/) | 18.0.1.0.1 |  | For invoices targetting multiple sale order addsections with sale order name.
 [account_invoice_send_template](account_invoice_send_template/) | 18.0.1.0.1 | <a href='https://github.com/rafaelbn'><img src='https://github.com/rafaelbn.png' width='32' height='32' style='border-radius:50%;' alt='rafaelbn'/></a> <a href='https://github.com/Andrii9090'><img src='https://github.com/Andrii9090.png' width='32' height='32' style='border-radius:50%;' alt='Andrii9090'/></a> <a href='https://github.com/chienandalu'><img src='https://github.com/chienandalu.png' width='32' height='32' style='border-radius:50%;' alt='chienandalu'/></a> | Choose email template when send batch invoices
@@ -54,7 +56,7 @@ addon | version | maintainers | summary
 [account_invoice_transmit_method](account_invoice_transmit_method/) | 18.0.1.1.0 | <a href='https://github.com/alexis-via'><img src='https://github.com/alexis-via.png' width='32' height='32' style='border-radius:50%;' alt='alexis-via'/></a> | Configure invoice transmit method (email, post, portal, ...)
 [account_invoice_transmit_method_substitution_rule](account_invoice_transmit_method_substitution_rule/) | 18.0.1.0.0 |  | This addon allow to set substitution rules for transmit method
 [account_invoice_tree_currency](account_invoice_tree_currency/) | 18.0.1.0.0 |  | Show currencies in the invoice tree view
-[account_invoice_triple_discount](account_invoice_triple_discount/) | 18.0.1.0.0 |  | Manage triple discount on invoice lines
+[account_invoice_triple_discount](account_invoice_triple_discount/) | 18.0.1.0.1 |  | Manage triple discount on invoice lines
 [account_invoice_warn_message](account_invoice_warn_message/) | 18.0.1.0.0 |  | Add a popup warning on invoice to ensure warning is populated
 [account_mail_autosubscribe](account_mail_autosubscribe/) | 18.0.1.0.0 | <a href='https://github.com/ivantodorovich'><img src='https://github.com/ivantodorovich.png' width='32' height='32' style='border-radius:50%;' alt='ivantodorovich'/></a> | Automatically subscribe partners to their company's invoices
 [account_manual_currency](account_manual_currency/) | 18.0.1.0.0 |  | Allows to manual currency of Accounting
@@ -77,11 +79,12 @@ addon | version | maintainers | summary
 [partner_invoicing_mode_at_shipping](partner_invoicing_mode_at_shipping/) | 18.0.1.0.2 |  | Create invoices automatically when goods are shipped.
 [partner_invoicing_mode_monthly](partner_invoicing_mode_monthly/) | 18.0.1.0.0 |  | Create invoices automatically on a monthly basis.
 [portal_account_personal_data_only](portal_account_personal_data_only/) | 18.0.1.0.0 |  | Portal Accounting Personal Data Only
-[product_customerinfo_invoice](product_customerinfo_invoice/) | 18.0.1.0.0 |  | Based on product_customerinfo, this module loads in every account invoice the customer code defined in the product
+[product_customerinfo_invoice](product_customerinfo_invoice/) | 18.0.1.1.0 |  | Based on product_customerinfo, this module loads in every account invoice the customer code defined in the product
 [product_form_account_move_line_link](product_form_account_move_line_link/) | 18.0.1.0.0 |  | Adds a button on product forms to access Journal Items
 [purchase_stock_picking_return_invoicing](purchase_stock_picking_return_invoicing/) | 18.0.1.0.0 | <a href='https://github.com/pedrobaeza'><img src='https://github.com/pedrobaeza.png' width='32' height='32' style='border-radius:50%;' alt='pedrobaeza'/></a> <a href='https://github.com/MiquelRForgeFlow'><img src='https://github.com/MiquelRForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='MiquelRForgeFlow'/></a> | Add an option to refund returned pickings
 [sale_credit_note_reversal](sale_credit_note_reversal/) | 18.0.1.0.0 |  | Allow to revert a credit note
 [sale_invoiceability_on_payment_transaction](sale_invoiceability_on_payment_transaction/) | 18.0.1.0.0 | <a href='https://github.com/cristina-hidalgo-tecnativa'><img src='https://github.com/cristina-hidalgo-tecnativa.png' width='32' height='32' style='border-radius:50%;' alt='cristina-hidalgo-tecnativa'/></a> <a href='https://github.com/carlos-lopez-tecnativa'><img src='https://github.com/carlos-lopez-tecnativa.png' width='32' height='32' style='border-radius:50%;' alt='carlos-lopez-tecnativa'/></a> | Allow invoicing sales orders when a done payment transaction exists.
+[sale_invoicing_date_from_picking](sale_invoicing_date_from_picking/) | 18.0.1.0.0 |  | Applies the wizard date to invoices generated from pickings
 [sale_invoicing_date_selection](sale_invoicing_date_selection/) | 18.0.1.0.0 | <a href='https://github.com/sergio-teruel'><img src='https://github.com/sergio-teruel.png' width='32' height='32' style='border-radius:50%;' alt='sergio-teruel'/></a> | Set date invoice when you create invoices
 [sale_line_refund_to_invoice_qty](sale_line_refund_to_invoice_qty/) | 18.0.1.0.1 |  | Allow deciding whether refunded quantity should be considered as quantity to reinvoice
 [sale_order_invoicing_grouping_criteria](sale_order_invoicing_grouping_criteria/) | 18.0.1.0.0 | <a href='https://github.com/pedrobaeza'><img src='https://github.com/pedrobaeza.png' width='32' height='32' style='border-radius:50%;' alt='pedrobaeza'/></a> | Sales order invoicing grouping criteria

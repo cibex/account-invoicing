@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: account-invoicing (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-25 16:48+0000\n"
-"PO-Revision-Date: 2026-06-09 04:34+0000\n"
+"PO-Revision-Date: 2026-10-24 13:11+0000\n"
 "Last-Translator: Matjaz Mozetic <matjaz@luxim.si>\n"
 "Language-Team: Slovenian (http://www.transifex.com/oca/OCA-account-invoicing-"
 "8-0/language/sl/)\n"
@@ -31,6 +31,11 @@ msgstr "<span class=\"col-6\">Za obračun</span>"
 #: code:addons/stock_picking_invoicing/wizards/stock_invoice_onshipping.py:0
 msgid "All pickings are not related to your company!"
 msgstr "Nekatere dobavnice niso vezane na vašo družbo!"
+
+#. module: stock_picking_invoicing
+#: model:res.groups,name:stock_picking_invoicing.group_allow_to_cancel_stock_move_linked_to_invoice_bill
+msgid "Allow to cancel stock moves linked to invoices/bills"
+msgstr "Dovoli preklic premikov zalog povezanih s prejetimi/izdanimi računi"
 
 #. module: stock_picking_invoicing
 #: model_terms:ir.ui.view,arch_db:stock_picking_invoicing.view_stock_invoice_onshipping
@@ -310,6 +315,17 @@ msgstr "Premestitev"
 #: model_terms:ir.ui.view,arch_db:stock_picking_invoicing.view_picking_form
 msgid "True"
 msgstr "Pravilno"
+
+#. module: stock_picking_invoicing
+#. odoo-python
+#: code:addons/stock_picking_invoicing/models/stock_move.py:0
+msgid ""
+"You cannot cancel a stock move linked to invoices/bills. Only members of the "
+"\"%(group_name)s\" group can perform this action. References: %(references)s"
+msgstr ""
+"Premika zaloge povezanega s prejetim/izdanim računom ni mogoče brisati. Le "
+"člani skupine \"%(group_name)s\" lahko izvedejo to dejanje. Sklici: %"
+"(references)s"
 
 #. module: stock_picking_invoicing
 #: model_terms:ir.ui.view,arch_db:stock_picking_invoicing.view_stock_invoice_onshipping
